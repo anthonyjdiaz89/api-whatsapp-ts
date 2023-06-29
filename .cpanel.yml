@@ -3,5 +3,5 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/admin/public_html/
     - /bin/cp -R * $DEPLOYPATH
-
+    - cd $DEPLOYPATH && /usr/local/bin/npm install
 
