@@ -13,7 +13,7 @@ class WsTransporter extends Client implements LeadExternal {
       authStrategy: new LocalAuth(),
       puppeteer: {
         headless: true,
-         executablePath: '/bin/chromium-browser',
+         executablePath: '/home/admin/repositories/api-whatsapp-ts/node_modules/whatsapp-web.js/node_modules/puppeteer/.local-chromium/linux-982053/chrome-linux/chrome',
         args: [
           "--disable-setuid-sandbox",
           "--unhandled-rejections=strict",
